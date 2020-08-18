@@ -1,0 +1,109 @@
+@import 'utility.css';
+body{
+	background-color:black;
+}
+html{
+	scroll-behavior:smooth;
+}
+header{
+	background-color: black;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container{
+	max-width:1152px;
+	padding:0 15px;
+	margin:0 auto;
+}
+header nav .left a{
+	color: white;
+	text-decoration: none;
+	margin-right:2rem;
+	text-transform:uppercase;
+}
+header nav{
+	padding:2rem 0;
+}
+header nav .branding{
+	margin-right:3rem;
+}
+header nav .left a:hover{
+	color:red;
+}
+.hero .right{
+	color:red;
+}
+.hero img{
+	width:400px
+}
+.hero .right h6{
+	font-size:1.6rem;
+	color:blue;
+	margin-bottom:0.6rem;
+}
+.hero .right h1{
+	font-size:4rem;
+	font-weight:100;
+	margin-bottom:2rem;
+}
+.hero .right p{
+	margin-bottom:2rem;
+}
+.about img{
+	width:200px;
+	height:200px;
+	margin-bottom:1rem;
+}
+section{
+	padding:6rem ;
+}
+section.about h1{
+	margin-bottom:1rem;
+	font-size:1.6rem;
+	font-weight:400;
+	color:red;
+	margin-right:1 rem
+}
+section.about h1 span{
+	color:blue;
+}
+section.about h3{
+	font-size:1rem;
+	margin-botton:1rem;
+	color:red;
+	text-align: center;
+	text-align: center;
+}
+section.about p{
+	color:red;
+	text-align: center;
+	margin-bottom:2rem;
+}
+.social img{
+	width:20px;
+	height:20px;
+}
+.social a:hover{
+	margin-right:0.6rem;
+	background:red;
+}
+section.freelancer h1{
+	color:red;
+}
+section.freelancer p{
+	color:red;
+}
+section.freelancer{
+	text-align:center;
+	background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("images/two.jpg");
+}
+div.works{
+	color:green;
+	text-align:center;
+}
+
+		
+
